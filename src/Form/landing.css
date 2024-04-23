@@ -1,0 +1,471 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+.wrapper_landing {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 1.2vh;
+    background: transparent;
+    color: #fff;
+    border-radius: 20px;
+    border: rgba(255, 255, 255);
+}
+
+.landing_body{
+    font-family: 'Poppins', sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    background: url(../Asset/tech1.png);
+    background-size: cover;
+    background-position: center ;
+}
+
+    .top_landing {
+        background-color: transparent;
+        flex: 0 0 10vh;
+        align-items: center;
+        border-bottom: 0.5vh solid black;
+        padding: 1vh;
+    }
+
+        .top_navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .top_navbar a {
+            color: black;
+            text-decoration: none;
+            margin: 0 2vw; 
+        }
+        
+        .left_nav{
+            font-weight: 700;
+            font-size: 4vh;
+        }
+        .right_nav{
+            font-weight: 700;
+        }
+
+        .right_nav a{
+            padding: 2vh;
+        }
+        .right_nav a:hover{
+            text-decoration: underline;
+        }
+
+
+.mid_landing {
+    flex: 1;
+    display: flex; 
+    .left_landing {
+        background: transparent;
+        flex-basis: 75%;
+        background-size: cover;
+        background-position: center;
+    }
+    .right_landing {
+        flex-basis: 25%;
+        border-left: 0.3vh solid rgba(11, 11, 11, 0.6);
+    }
+}
+
+    .left_description{
+        margin: 5vh 10vh;
+        padding: 2vh;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 20px;
+    }
+    .left_description * {
+        color: black; 
+    }
+
+        .left_description .left_name{
+            margin: 1.2vh 1.2vh 1.2vh 0;
+            font-size: 4vh;
+            color: black;
+        }
+
+        .left_description .left_intro{
+            font-weight: 600;
+            font-size: 4vh;
+            margin: 1.2vh 1.2vh 1.2vh 0;
+            color: black;
+        }
+
+        .left_description .left_p{
+            font-size: 2.6vh;
+            margin: 1.2vh 1.2vh 1.2vh 0;
+            color: black;
+        }
+        .left_description .left_btn{
+            width: 30vh;
+            height: 7vh;
+            background: black;
+            border: none;
+            outline: none;
+            border-radius: 40px;
+            box-shadow: 0 0 1vh rgba(0, 0, 0, .1);
+            cursor: pointer;
+            color: white;
+            font-size: 2.7vh;
+            font-weight: 700;
+            margin: 2.5vh 2.5vh 2.5vh 0;
+            transition: background-color 0.3s ease;
+
+        }
+        .left_description .left_btn:hover {
+            background-color: rgba(0, 0, 0, 0.6);
+            
+        }
+        .left_description .left_icon {
+            display: flex;
+        }
+        
+        .left_icon_o {
+            margin-right: 2.5vh; 
+            font-size: 5vh; 
+        }
+        .left_icon_o2 {
+            margin-right: 2.5vh; 
+            font-size: 6vh; 
+        }
+
+    .right_btn {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .right_btn .func_btn {
+        width: 80%;
+        height: 8vh;
+        margin-top: 8%;
+        font-size: 6vh;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        background-color: rgba(240, 237, 237, 0.8);
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+        cursor: pointer;
+        color: #070707;
+        transition: background-color 0.3s ease; 
+        font-size: medium;
+        font-weight: 600;
+        text-align: center;
+        align-items: center;
+        
+    }
+
+    
+
+    .right_btn .func_btn:hover {
+        background-color: rgba(236, 8, 8, 0.8); 
+    }
+
+.bottom_landing {
+    background-color: #282828;
+    flex: 0 0 10%;
+    padding: 1.2vh;
+}
+.bottom_landing .bot_left {
+    margin-left: 2vh;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+.wrapper_landing {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* padding: 1.2vh; */
+    color: #fff;
+    border-radius: 20px;
+    border: rgb(5, 5, 5);
+}
+
+.landing_body{
+    font-family: 'Poppins', sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    /* background: url(../Asset/tech1.png); */
+    background-size: cover;
+    background-image: linear-gradient(to right,#4E65FF , #92EFFD);
+    background-position: center ;
+}
+
+    .top_landing {
+        align-items: center;
+        border-bottom: 0.5vh solid black;
+        position: absolute;
+        top: 2px;
+        left: 1px;
+    }
+    
+        
+
+.top-navbar
+{
+    box-shadow: 0px 0px 5px 0px #aaa;
+    position: fixed;
+    width: 100%;
+    /* background: #fff; */
+    /* background: ; */
+    background-color: rgba(255, 255, 255, 0.99);
+    color: #000;
+    opacity: 0.85;
+    z-index: 100;
+    border-radius: 10px;
+    height: 90px;
+}
+
+.top_logo{
+    color: black;
+    margin-left: 35px;
+    font-size: 32px;
+    font-weight: 800;
+    text-decoration: none;
+}
+ .logo1{
+    width: 150px;
+    margin-top: 35px;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.top-navbar .menu-items{
+    order: 2;
+    display: flex;
+}
+
+.top-navbar .top_link{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    transition:color 0.3s ease-in-out;
+    margin: 28px 15px 0;
+    font-size: 22px;
+}
+.top-navbar .top_logo{
+    color: black;
+    font-weight: 600;
+}
+
+.top-navbar .top_link:hover{
+    color: #96038a;
+}
+.top-navbar .top_logo:hover{
+    color: black;
+}
+
+.mid_landing {
+    flex: 1;
+    display: flex; 
+    .left_landing {
+        margin: 5vh 6vh;
+        background: transparent;
+        /* flex-basis: 75%; */
+        background-size: cover;
+        background-position: center;
+        margin-top: 90px;
+    }
+}
+
+    .left_description{
+        width: 187vh; 
+        /* height: 50vh;  */
+        margin: 5vh 10vh;
+        padding: 2vh;
+        /* padding-right: 20vh; */
+        background-color: rgba(255, 255, 255, .9);
+        border-radius: 20px;
+    }
+    .left_description * {
+        color: black; 
+        margin: 20px;
+    }
+
+        .left_description .left_name{
+            font-size: 4vh;
+            color: black;
+            margin-left: 40px;
+        }
+
+        .left_description .left_intro{
+            font-weight: 600;
+            font-size: 4vh;
+            /* margin: 1.2vh 1.2vh 1.2vh 0; */
+            color: black;
+        }
+
+        .left_description .left_p{
+            font-size: 2.6vh;
+            /* margin: 1.2vh 1.2vh 1.2vh 0; */
+            color: black;
+        }
+         .left_btn{
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .left_description .left_btn:hover {
+            text-decoration: underline;
+            
+        }
+        .left_description .left_icon {
+            display: flex;
+        }
+        
+        .left_icon_o {
+            margin-right: 2.5vh; 
+            font-size: 5vh; 
+        }
+        .left_icon_o2 {
+            margin-right: 2.5vh; 
+            font-size: 6vh; 
+        }
+
+    .right_btn {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .right_btn .func_btn {
+        width: 80%;
+        height: 8vh;
+        margin-top: 8%;
+        font-size: 6vh;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        background-color: rgba(240, 237, 237, 0.8);
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+        cursor: pointer;
+        color: #070707;
+        transition: background-color 0.3s ease; 
+        font-size: medium;
+        font-weight: 600;
+        text-align: center;
+        align-items: center;
+        
+    }
+    .right_btn .func_btn:hover {
+        background-color: rgba(236, 8, 8, 0.8); 
+    }
+
+.bottom_landing {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    background-color: rgba(255, 255, 255, 0.0);
+    flex: 0 0 10%;
+    border-radius: 40px;
+    /* padding: 1.2vh; */
+    margin: -25px 16vh 5vh;
+
+}
+
+.bottom_landing {
+    display: flex; /* Sử dụng flexbox để sắp xếp các phần tử con */
+  }
+  
+  .bottom_btn_contain_left, .bottom_btn_contain, .bottom_btn_contain_right {
+    flex: 1; 
+    border: 5px black;
+    margin-right: 2px; 
+  }
+  
+  .bot_func_btn, .bot_func_btn_left, .bot_func_btn_right, .bot_func_btn2 {
+      color: black;
+      font-size: 18px;
+      height: 70px;
+    width: 260px;
+    text-align: center;
+    border: 15px black;
+    cursor: pointer;
+
+  }
+  .bot_func_btn, .bot_func_btn_left, .bot_func_btn_right {
+      display: block;
+      text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 20px;
+    cursor: pointer;
+}
+.bot_func_btn2 {
+    display: block;
+    text-decoration: none;
+    height: 70px;
+    width: 260px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.bot_func_btn_left {
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+  .bot_func_btn_right {
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.bot_func_btn:hover, .bot_func_btn_left:hover, .bot_func_btn_right:hover, .bot_func_btn2:hover {
+    font-weight: 600;
+    text-decoration: underline;
+}
+.bottom_btn_contain:hover, .bottom_btn_contain_left:hover, .bottom_btn_contain_right:hover {
+    background-image: linear-gradient(to right, #ED1E79, #662D8C);
+}
+
+.bottom_btn_contain_left:hover {
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+.bottom_btn_contain_right:hover {
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+  
+
+
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines{
+    display: none;
+}
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    /* margin: auto; */
+}
+
+.top_logo {
+    background-image: url('../Asset/logo_stid.png');
+    background-size: contain; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    width: 150px; /* Adjust as needed */
+    height: 105px; 
+    display: inline-block;
+    margin-top: 3.5%;
+}
+

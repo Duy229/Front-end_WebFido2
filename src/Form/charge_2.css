@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+:root {
+    --trans_wrapper: 30vh;
+  }
+  
+  .transBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to right,#4E65FF , #92EFFD);
+  
+  }
+.submit_money{
+  width: 420px;
+  height: 60px;
+  box-shadow: 0 0 10px 0 0.4 black;
+  position: absolute;
+  right: 212px;
+  top: 500px;
+  border-radius: 40px;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 20px;
+
+}
+.submit_money:hover{
+  box-shadow: 0 0 10px 0 0.9 black;
+  
+}

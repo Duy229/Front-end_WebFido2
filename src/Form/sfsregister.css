@@ -1,0 +1,119 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.aRegis_body {
+    font-family: 'Poppins', sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to right,#4E65FF , #92EFFD);
+    background-size: cover;
+    background-position: center ;
+}
+
+.register-link p a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: large;
+    /* padding: 20%; */
+}
+.register-link p a:hover {
+    text-decoration: underline;
+}
+.wrapper_pRegis {
+    margin-top: 50px;
+}
+
+video
+{
+    z-index: -1;
+}
+.wrapper_pRegis .submit_sfs_regis{
+    border: 2px black;
+    background-color: rgba(119, 119, 119, 0.3);
+    box-shadow: 0px 0px 10px 0px #aaa;
+}
+.wrapper_pRegis .submit_sfs_regis:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+
+.sfs_top_landing {
+    align-items: center;
+    border-bottom: 0.5vh solid black;
+    margin-top: 2px;
+    position: absolute;
+    top: 2px;
+    left: 1px;
+}
+    
+
+.top-navbar
+{
+box-shadow: 0px 0px 5px 0px #aaa;
+position: fixed;
+width: 100%;
+background: #fff;
+color: #000;
+opacity: 0.85;
+z-index: 100;
+border-radius: 10px;
+}
+.top_logo{
+color: black;
+margin-left: 35px;
+font-size: 32px;
+font-weight: 800;
+text-decoration: none;
+}
+.navbar-container{
+display: flex;
+justify-content: space-between;
+height: 64px;
+align-items: center;
+padding-right: 100px;
+}
+
+.top-navbar .menu-items{
+order: 2;
+display: flex;
+}
+
+.top-navbar .top_link{
+color: black;
+text-decoration: none;
+font-weight: 600;
+transition:color 0.3s ease-in-out;
+margin: 0 15px;
+font-size: 22px;
+}
+.top-navbar .top_logo{
+color: black;
+font-weight: 800;
+}
+
+.top-navbar .top_link:hover{
+color: #96038a;
+}
+.top-navbar .top_logo:hover{
+color: black;
+}
+
+.input_box_regis_sfs
+{
+    display: none;
+}
+.wrapper_pRegis .submit_login
+{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}

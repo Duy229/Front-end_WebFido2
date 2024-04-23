@@ -1,0 +1,203 @@
+.authnBody
+{
+    font-family: 'Poppins', sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    background-size: cover;
+    background-image: linear-gradient(to right,#4E65FF , #92EFFD);
+    background-position: center ;
+}
+.authn_list *{
+    color: black;
+}
+
+.authn_container{
+    background:  rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 120px;
+    width: 1200px;
+    color: black;
+    border-radius: 20px;
+    padding: 10vh 4vh;
+    align-items: center;
+}
+
+
+.authn_list h2{
+    font-size: 40px;
+    position: absolute;
+    top: 25px;
+    left: 28%;
+    right: 20%;
+    align-items: center;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 45px 40px;
+    font-size: 0.9em;
+    width: 1050px;
+    max-width: 1050px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    align-self: center;
+    /* text-align: center; */
+}
+.authn_list .content-table th {
+    text-align: center;
+}
+
+.content-table thead tr {
+    background-color: #6c7ffb;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 30px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 3px solid #4E65FF;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.button-cell {
+    display: flex;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    gap: 5px; /* Khoảng cách giữa các nút */
+}
+
+
+.delBtn, .putBtn {
+    background-color: white; /* Background trắng */
+    transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển đổi màu khi hover */
+
+    border-radius: 5px;
+    width: 55px;
+    height: 40px;
+    padding: 3px 7px;
+    margin-top: 3px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.delBtn {
+    border: 3px solid red; 
+    color: red; 
+    
+}
+
+.delBtn:hover {
+    background-color: red; 
+    color: white; 
+}
+.putBtn {
+    border: 3px solid orange; 
+    color: orange;
+}
+
+.putBtn:hover {
+    background-color: orange; 
+    color: white;
+}
+
+
+.modalBtn {
+    position: relative;
+    align-items: center;
+    color: black;
+}
+
+.modal-wrapper2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(139, 139, 139, 0.477);
+    z-index: 9; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-wrapper {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, .8);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.modal-wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow:rgba(0, 0, 0, 0.8) ;
+}
+
+.modal-wrapper .input_box-modal {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    color: rgba(0, 0, 0, 0.8);
+    border:2px rgba(0, 0, 0, 0.8);;
+}
+
+.modal-wrapper .input_login {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.9);
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 20px 45px 20px 20px;
+}
+
+.input_box-modal input::placeholder {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.cancelBtn {
+    color: rgba(0, 0, 0, 0.8);
+    background-color: transparent;
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border: transparent;
+    cursor: pointer;
+}
+.cancelBtn:hover{
+    text-decoration: underline;
+}

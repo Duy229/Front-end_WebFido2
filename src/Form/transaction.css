@@ -1,0 +1,73 @@
+:root {
+  --trans_wrapper: 30vh;
+}
+
+.transBody{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+    background-image: linear-gradient(to right,#4E65FF , #92EFFD);
+    /* background: url(../Asset/tech1.png); */
+
+}
+.error-message {
+  color: red;
+}
+
+.moneyWrapper{
+  width: 420px;
+  background:  rgba(255, 255, 255, 0.0);
+  color: black;
+  border-radius: 20px;
+  padding: 30px 40px;
+  margin-top: 20px;
+  position: absolute;
+  right: var(--trans_wrapper);
+}
+
+
+.trans_btn {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.transaction_btn {
+  width: 343px;
+  height: 8vh;
+  font-size: 6vh;
+  border-radius: 40px;
+  background-color: rgba(240, 237, 237, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  color: black;
+  font-size: medium;
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  top: 110px;
+  right: 40px;
+}
+
+.transaction_btn:hover{
+  box-shadow: 0 0 10px 0 black;
+}
+
+
+.input_money{
+  color: black;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  font-size: 16px;
+  padding: 20px 45px 20px 20px;
+  background-color: white;
+}
+
+ .trans_btn_3
+{
+  position: absolute;
+  top: 450px;
+}

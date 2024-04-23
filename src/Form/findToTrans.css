@@ -1,0 +1,48 @@
+.transBody{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+    background-image: linear-gradient(to right,#4E65FF , #92EFFD);
+    /* background-image: linear-gradient(to right,#C33764  , #1D2671); */
+    /* background-image: linear-gradient(to right,#EA8D8D , #A890FE); */
+    /* background: url(../Asset/tech1.png); */
+    /* background: url(../Asset/image.png); */
+}
+.row span{
+  color: black;
+  font-weight: 600;
+
+}
+
+.findToTrans_btn {
+  width: 343px;
+  height: 8vh;
+  font-size: 6vh;
+  border-radius: 40px;
+  background-color: rgba(240, 237, 237, 0.9);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+  color: black;
+  font-size: medium;
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  top: 200px;
+  right: 40px;
+}
+
+.findToTrans_btn:hover{
+  box-shadow: 0 0 10px 0 black;
+  text-decoration: underline;
+}
+
+.input_name{
+  color: black;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  font-size: 16px;
+  padding: 20px 45px 20px 20px;
+  background-color: white;
+}
